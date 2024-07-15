@@ -1,6 +1,6 @@
 # Create: Techified
 
-  <a href="https://discord.com/invite/AEaCzCTUwQ">
+  <a href="https://discord.gg/WjFH9uZUJA">
   <img alt="discord-plural" height="56" src="https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3/assets/cozy/social/discord-plural_vector.svg" alt="Talk with us on Discord"></a>
 
   <a href="https://github.com/CreateTechified/Modpack/Releases">
