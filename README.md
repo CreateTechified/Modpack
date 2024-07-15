@@ -1,9 +1,9 @@
 # Create: Techified
 
   <a href="https://discord.com/invite/AEaCzCTUwQ">
-  <img src="https://cdn.jsdelivr.net/npm/@intergrav/devins-badges/assets/compact-minimal/social/discord-singular_vector.svg" alt="Chat on Discord"></a>
+  <img alt="discord-plural" height="56" src="https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3/assets/cozy/social/discord-plural_vector.svg" alt="Talk with us on Discord"></a>
 
-<!--Text-->  <a href="">
-<!--Text-->  <img src="https://cdn.jsdelivr.net/npm/@intergrav/devins-badges/assets/compact-minimal/available/curseforge_vector.svg" alt="Available on СurseForge"></a>
-<!--Text-->  </br>
+  <a href="https://github.com/CreateTechified/Modpack/Releases">
+  <img alt="github" height="56" src="https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3/assets/cozy/available/github_vector.svg" alt="Available from GitHub Releases"></a>
+  </br>
 Description coming soon <3
