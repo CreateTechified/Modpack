@@ -2086,7 +2086,7 @@ hash = "a8e6a4edc580b8c8f7b7146ef549d533df3547c8d3cbda13a2083b866d6aa016"
 
 [[files]]
 file = "icon.png"
-hash = "41f677d21a3d711b06bc79c5fa0f1acd8ac54a26d6f0cf7ca1753b9cea7e5347"
+hash = "00ee97d1fe0fd09ecb7ebe83acff451392f3b4a73ba6e19ce0974d42b0722f15"
 
 [[files]]
 file = "kubejs/README.txt"
@@ -2119,6 +2119,14 @@ hash = "22b7d86d141289c73947671787f0a244920d55728b47e1f0b84ea37c4699ff8b"
 [[files]]
 file = "kubejs/startup_scripts/example.js"
 hash = "395c96d3ddd178821db851f387e91560e606ea752177f66d2016f12bd0542b8f"
+
+[[files]]
+file = "mods/CraftableNameTag-1.19.2-Forge.jar"
+hash = "b646e39507d82ff37fa9342fd2c6e549d2f0fd0584159cd92755e14a59a931be"
+
+[[files]]
+file = "mods/CreateMoreAutomation-1.19.2-0.3.0.jar"
+hash = "477dcb8cfcc6cfea428902cca65de3dcab4aa3f32b34bf209f334ad1269cc5fd"
 
 [[files]]
 file = "mods/ad-astra.pw.toml"
@@ -2216,14 +2224,13 @@ hash = "3761680fb5aecd99a6ad070c4b8387157aab76962e90cf4f81aa864898acd87e"
 metafile = true
 
 [[files]]
-file = "mods/aquaculture-delight.pw.toml"
-hash = "930a2dd210d1ae76eeefea195b4f92c4113750f45d93ee0adb37f7a81b6267c8"
-metafile = true
-
-[[files]]
 file = "mods/aquaculture.pw.toml"
 hash = "adb361636e33274035f9f238c03e830e17cb4ade605bcd86fcc31f59e61cc866"
 metafile = true
+
+[[files]]
+file = "mods/aquaculture_delight_1.0.0_forge_1.19.2.jar"
+hash = "a8c541ced4f6a7f679da1eab0c9b05953e11eaa44b72a79f075b1c201d875725"
 
 [[files]]
 file = "mods/architectury-api.pw.toml"
@@ -2281,11 +2288,6 @@ hash = "d5fd53211865a08a128530e5c6cc8596940f11e97f2bd258c69da55e3a86e468"
 metafile = true
 
 [[files]]
-file = "mods/better-stats.pw.toml"
-hash = "a89d2e789613f03a9e32ec9c42a2470afb66816c02c14e6acbc0f771ef318852"
-metafile = true
-
-[[files]]
 file = "mods/better-third-person.pw.toml"
 hash = "61646bf3738b16c07c6cee3de35afe9a016eb8ae031e2183e4b17c2090619741"
 metafile = true
@@ -2299,6 +2301,10 @@ metafile = true
 file = "mods/betterf3.pw.toml"
 hash = "67be233a74c694d188c8d3fdfa438e6be0ca05f31775c01d7ad50a7bc287cfd6"
 metafile = true
+
+[[files]]
+file = "mods/betterstats-2.2.2+1.19.2.jar"
+hash = "76b670f72ffcb8736cf8773a4ec248fc93ccd1dcf24bbccd4cff5e87342f25c0"
 
 [[files]]
 file = "mods/biomes-o-plenty.pw.toml"
@@ -2334,6 +2340,10 @@ metafile = true
 file = "mods/building-gadgets.pw.toml"
 hash = "4b54a13f608d5dcc073c5140b5f99ee31aa720d125069792445e0fbdf5a3db06"
 metafile = true
+
+[[files]]
+file = "mods/burn_me-1.1.0-forge-1.19.2.jar"
+hash = "1478e0e17b513b103e2b74126e2efecd232a02391710aa30d717e23c13c29e3b"
 
 [[files]]
 file = "mods/canary.pw.toml"
@@ -2456,11 +2466,6 @@ hash = "fa75890049565b0ec15ef1a0afad022374728ea73d28d94454ef14727a67a3f3"
 metafile = true
 
 [[files]]
-file = "mods/craftablenametag.pw.toml"
-hash = "da1203a25a7c1a1b21ba724ccd4e2f9c534e6e34dd37e724425bd2a64e827cfb"
-metafile = true
-
-[[files]]
 file = "mods/crafting-automat.pw.toml"
 hash = "f8b62958382732e73a6bab19ad9ad370fc9d9d2fbe21d0b3f9713d8f370469df"
 metafile = true
@@ -2516,11 +2521,6 @@ hash = "b0bb61105e0ac0c763edfa41ea5b0406f157bc17e421af1bf8b2cbb49325ced6"
 metafile = true
 
 [[files]]
-file = "mods/create-design-n-decor.pw.toml"
-hash = "13b045dff41b6aae680de15a09b37baeb851310d33c79858e24da97136a13b3e"
-metafile = true
-
-[[files]]
 file = "mods/create-diesel-generators.pw.toml"
 hash = "1d3277b6c9d52969c9a71f51f0fa63cb46040f56cdec7065edd361706887dbc0"
 metafile = true
@@ -2543,11 +2543,6 @@ metafile = true
 [[files]]
 file = "mods/create-industry.pw.toml"
 hash = "050fa0deff82ea34bf43da0b1c1fed040fe399e25c9ad50372722b804b7fd0bc"
-metafile = true
-
-[[files]]
-file = "mods/create-more-automation.pw.toml"
-hash = "5798852a15399cb22f8a80f5b3d75904f48b5abdf16dc214716fb714ed92ea7c"
 metafile = true
 
 [[files]]
@@ -2576,11 +2571,6 @@ hash = "4f6bd8755b5ad9809611e8f512c1a62cba9e0677bb7c5707ce6f67694542d261"
 metafile = true
 
 [[files]]
-file = "mods/create-recycle-everything.pw.toml"
-hash = "cbc8421c31999cd7a1013e749f6b079e71d25dad80643bd8dfb8db7f4aed5f6d"
-metafile = true
-
-[[files]]
 file = "mods/create-steam-n-rails.pw.toml"
 hash = "6c60f28ddec48a53161763304b35130ffc9cba2cc8f12cabb97dd9d483983bc4"
 metafile = true
@@ -2604,6 +2594,10 @@ metafile = true
 file = "mods/create.pw.toml"
 hash = "3b323331e2ebcd03843ee1a7e783290025750f67091c22e717bb29248dea61f6"
 metafile = true
+
+[[files]]
+file = "mods/create_recycle_1.0.2_forge_1.19.2.jar"
+hash = "62048a949218dd98770036894a4ef4865f1ca93b46ec6de35b8f307dd3c71604"
 
 [[files]]
 file = "mods/createaddition.pw.toml"
@@ -2676,6 +2670,10 @@ hash = "65d63af350191698cf634960b8e8c87b6505a85f8460e1c4c6ee75bdccbbe2b5"
 metafile = true
 
 [[files]]
+file = "mods/design_decor-0.4-1.19.2.jar"
+hash = "2af06da0c509a6bcf27b2237e70382cde89823c6558d4e759050581f2bd5419e"
+
+[[files]]
 file = "mods/dmmttba.pw.toml"
 hash = "020769ea4ca2aa53a6424426db53e7cfb859648d84c630ad741d26dbb12e303f"
 metafile = true
@@ -2741,9 +2739,8 @@ hash = "3d8b8da8c1c77fec8c3ebab23b5328f02d6302b8e4d3ee0ab96953c23441fe87"
 metafile = true
 
 [[files]]
-file = "mods/entityculling.pw.toml"
-hash = "2df773e7b7659f53640f79e1e2b2e1de0df20277dc61de90a1d12881116cdc49"
-metafile = true
+file = "mods/entityculling-forge-1.6.1-mc1.19.2.jar"
+hash = "14686b41719756b50dd8d90e4d1754f752e5c370c99a280df00ecc64baf63534"
 
 [[files]]
 file = "mods/essential-mod.pw.toml"
@@ -2791,9 +2788,8 @@ hash = "da09edd338fa641d7eee1b96ecc2cc5e6dc9d299c68da33741b3b81854a551ef"
 metafile = true
 
 [[files]]
-file = "mods/fastboot.pw.toml"
-hash = "00b4750b2ccd6ef298f7fc5b1da8263e3f9c5f4898066c9bcd46169c38798e1e"
-metafile = true
+file = "mods/fastboot-1.19.x-1.1.jar"
+hash = "625da96e39885ee91ece97f7d0697f3f185af1e2013d0f63f0c2d77deb6622e5"
 
 [[files]]
 file = "mods/fastfurnace.pw.toml"
@@ -2821,9 +2817,8 @@ hash = "0c820f51223c9f36609b2ab9c2cfe84c9f8920baee03d27535470e41330b9a76"
 metafile = true
 
 [[files]]
-file = "mods/first-person-model.pw.toml"
-hash = "2d1828484bf1172008a9725ab3f4fd1851e581cd8720bb4ab56d7ddd61650800"
-metafile = true
+file = "mods/firstperson-forge-2.4.5-mc1.19.2.jar"
+hash = "5f1f89df2571a043cdc0c4839986987291a5d2e3b6c517ed1ed26ed7222a1abf"
 
 [[files]]
 file = "mods/fix-gpu-memory-leak.pw.toml"
@@ -3201,14 +3196,8 @@ hash = "7942da454d725373481664c245954c24764d26317968c8c4473743e5f54bbf1d"
 metafile = true
 
 [[files]]
-file = "mods/nocubes-more-furnace-fuel.pw.toml"
-hash = "80cac71e3c78a981f58965863c526e26f680ef146f1c39544099a201e8521189"
-metafile = true
-
-[[files]]
-file = "mods/not-enough-animations.pw.toml"
-hash = "e846b754fe5482516341a870191df93bfc12d09f644437db11dbe96dbc48228d"
-metafile = true
+file = "mods/notenoughanimations-forge-1.7.6-mc1.19.2.jar"
+hash = "377dfecdd752970674730f15dc91eed08ee33b57b16ab3fdc3024cde6ac514c6"
 
 [[files]]
 file = "mods/notenoughrecipebook.pw.toml"
@@ -3311,14 +3300,13 @@ hash = "4792b5508f6583035d60a5d681d1f05bb52acef432fb47f132bcfb1b53d518f6"
 metafile = true
 
 [[files]]
-file = "mods/quark-delight.pw.toml"
-hash = "4daf1a496dce9bc2e804a839495cff2491dbc626795dff0d8d349f37a12b6319"
-metafile = true
-
-[[files]]
 file = "mods/quark.pw.toml"
 hash = "d06f9962b29db69d2e8fb32940cf29471eb6230043dc5fb9d341af36148a09c3"
 metafile = true
+
+[[files]]
+file = "mods/quark_delight_1.0.0_forge_1.19.2.jar"
+hash = "057e672284cd8365ddfc62b199a4d1026a1953e782a91e7e40d85e75372f0383"
 
 [[files]]
 file = "mods/rechiseled-create.pw.toml"
@@ -3431,9 +3419,8 @@ hash = "ea9c81ef618e5b7189dafd23aae5fd615348486261111697be25023df5f6fdb5"
 metafile = true
 
 [[files]]
-file = "mods/skin-layers-3d.pw.toml"
-hash = "d06e06fa08ee8b1c60d705bb6f883e1c9ffd9f7019212eb26a2fc95ce2848887"
-metafile = true
+file = "mods/skinlayers3d-forge-1.7.1-mc1.19.2.jar"
+hash = "b85af4ed863a7d853e7a22849c45657083d5fa102fde955e6a66d2e4be967afc"
 
 [[files]]
 file = "mods/slice-and-dice.pw.toml"
@@ -3576,14 +3563,13 @@ hash = "0978336d611499a60bff502fff3d228a638db1be4121ab7d06f2f95d2f010e66"
 metafile = true
 
 [[files]]
-file = "mods/tinker-delight.pw.toml"
-hash = "35dd90f02821d78b3ef08cd2f20bbeecc10a1a8b3b810a156d06f671104b2c0f"
-metafile = true
-
-[[files]]
 file = "mods/tinkers-construct.pw.toml"
 hash = "14f8ceea14a56f8f4cee23c114d0eaabcdaefcdaddd439bde898ae49203c0857"
 metafile = true
+
+[[files]]
+file = "mods/tinkers_delight_1.0.0_forge_1.19.2.jar"
+hash = "cbb5d68735ce9be29976fbf6db9a1cf1a7e9a0b7e51fccfe6631f2c2a53c8ea6"
 
 [[files]]
 file = "mods/toms-storage.pw.toml"
@@ -3626,9 +3612,8 @@ hash = "c99e0db93630d4dc2823bf0d9f103a6386504adc30522a0e18e00c5a87c54770"
 metafile = true
 
 [[files]]
-file = "mods/useful-slime.pw.toml"
-hash = "b1fc7fd3810216e33db74dbfcafa155e483350df79ad7d2ab33b5f4af6049412"
-metafile = true
+file = "mods/usefulslime-1.9-1.19.2.jar"
+hash = "5b77eb1882b51e47f9aaf8d7e39b54f7fe0252d0c5f155663a4471066e92652a"
 
 [[files]]
 file = "mods/villager-names.pw.toml"
