@@ -6,7 +6,7 @@ inputs:
     required: true
   build-modrinth:
     description: "Set to 'true' to build the Modrinth .mrpack file"
-    required: true
+    required: false
   build-curse:
     description: "Set to 'true' to build the CurseForge .zip file"
     required: true
