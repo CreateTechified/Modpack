@@ -1,0 +1,13 @@
+name = "Craft Saddles and Horse Armor"
+filename = "craftsaddles-forge-1.19.2-v1.0.4.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "b8bb89e012c1c2ef0ccf1684fd30d0a392699b19"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4094442
+project-id = 502565

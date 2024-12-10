@@ -1,0 +1,13 @@
+name = "Mechanical trading station"
+filename = "mechanical_trading_station-1.19.2-0.0.1.c.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "16507a8ce4e36d1709a809451aa653c59944f6c1"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4729778
+project-id = 908338

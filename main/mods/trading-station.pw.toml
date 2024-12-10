@@ -1,0 +1,13 @@
+name = "Trading station"
+filename = "trading_station-1.19.2-0.1.2.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "c8e04c045efd0c7b7db0ed32d237b353eb3be7b0"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4729756
+project-id = 908337

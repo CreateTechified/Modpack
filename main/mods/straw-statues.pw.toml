@@ -1,0 +1,13 @@
+name = "Straw Statues [Forge & Fabric]"
+filename = "StrawStatues-v4.0.13-1.19.2-Forge.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "57eb14d4f92e55ace5d5b74ed656ed34fd7aa762"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 5742048
+project-id = 682564

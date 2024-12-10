@@ -1,0 +1,13 @@
+name = "Seamless Loading Screen (Forge)"
+filename = "seamless_loading_screen-1.19.2-4.0.2.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "53e8e53258d73dc0f213599e4454012c3ce93251"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4476692
+project-id = 456335

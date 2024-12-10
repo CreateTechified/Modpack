@@ -1,0 +1,13 @@
+name = "Inventory Essentials"
+filename = "inventoryessentials-forge-1.19.2-5.4.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "f7fb23bede71b223a1863580d458711d9fa7c72c"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4751198
+project-id = 368825

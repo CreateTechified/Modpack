@@ -1,0 +1,12 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "useful_items"
+	group: "0E07056EFBE12555"
+	icon: "minecraft:totem_of_undying"
+	id: "4E6B876BF16C3051"
+	order_index: 0
+	quest_links: [ ]
+	quests: [ ]
+	title: "Useful Items"
+}

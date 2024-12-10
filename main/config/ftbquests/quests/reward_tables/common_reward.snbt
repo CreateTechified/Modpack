@@ -1,0 +1,8 @@
+{
+	icon: "minecraft:chest"
+	id: "56ED5A2EE70EC034"
+	loot_size: 1
+	order_index: 0
+	rewards: [ ]
+	title: "Common Reward"
+}

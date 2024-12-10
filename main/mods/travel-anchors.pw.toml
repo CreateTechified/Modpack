@@ -1,0 +1,13 @@
+name = "Travel Anchors"
+filename = "TravelAnchors-1.19.2-4.1.2.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "10f82fa037bdb7f1335e96c5e6b02403afc65faa"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4100814
+project-id = 413234

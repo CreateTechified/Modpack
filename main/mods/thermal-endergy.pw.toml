@@ -1,0 +1,13 @@
+name = "Thermal Endergy"
+filename = "thermalendergy-1.19.2-3.0.2-all.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "7c6901ba8f49c635115bc53ce3c69a3548a6e563"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4567824
+project-id = 869849

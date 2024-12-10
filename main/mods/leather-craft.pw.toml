@@ -1,0 +1,13 @@
+name = "LeatherCraft"
+filename = "leather_craft-1.3.0-forge-1.19.2.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "a7e79e1439fb793dad9b8a0b378ddbb6d69a0a54"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 5741429
+project-id = 624669

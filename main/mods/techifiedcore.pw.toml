@@ -1,0 +1,13 @@
+name = "TechifiedCore"
+filename = "techifiedcore-caa39cd.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "6a122d54d7512be6fbd4512f07e1490e7205b965"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 5896648
+project-id = 1137902

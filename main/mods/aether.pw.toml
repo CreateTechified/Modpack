@@ -1,0 +1,13 @@
+name = "The Aether"
+filename = "aether-1.19.2-1.5.1-forge.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "976d6aad71c5d257b34252408c7cd6071034008e"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 5889508
+project-id = 255308

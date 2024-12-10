@@ -1,0 +1,13 @@
+name = "AE Additions - ExtraCells2 Fork"
+filename = "AEAdditions-1.19.2-4.0.5.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "8f3ce849d24c00202beb5ceb9f1452b1c307239f"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4646599
+project-id = 493962

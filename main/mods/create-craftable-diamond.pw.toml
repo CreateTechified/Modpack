@@ -1,0 +1,13 @@
+name = "Create: Craftable Diamond"
+filename = "CCD-1.19.2-1.0.0beta.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "2f6b05482660eabcd28618dcc8a2f6275619b11d"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 5258468
+project-id = 1002689

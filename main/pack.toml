@@ -1,0 +1,13 @@
+name = "Create: Techified"
+author = "pineapple, wrldmap"
+version = "0.1.0"
+pack-format = "packwiz:1.1.0"
+
+[index]
+file = "index.toml"
+hash-format = "sha256"
+hash = "ed65d5a51012a9a8313e917a3a2e4d6214ff8f92f58933dd09c94d82cfc37628"
+
+[versions]
+forge = "43.4.0"
+minecraft = "1.19.2"
