@@ -7,8 +7,8 @@ on:
 
 env:
   pack-file: 'pack.toml'
-  default-release-modrinth: 'true'
-  default-release-curseforge: 'false'
+  default-release-modrinth: 'false'
+  default-release-curseforge: 'true'
 
 
 jobs:
