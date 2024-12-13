@@ -2,10 +2,6 @@
     "name": "Create: Techified",
     "version": "0.0.1",
     "overrides": [
-        "config",
-        "datapacks",
-        "kubejs",
-        "packmenu",
-        "icon.png"
+        "config"
     ]
 }
