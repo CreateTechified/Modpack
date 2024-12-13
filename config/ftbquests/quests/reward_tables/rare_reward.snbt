@@ -1,0 +1,15 @@
+{
+	icon: {
+		Count: 1b
+		id: "sophisticatedstorage:iron_chest"
+		tag: {
+			accentColor: 16383998
+			mainColor: 16383998
+		}
+	}
+	id: "74DF622671969ADE"
+	loot_size: 1
+	order_index: 1
+	rewards: [ ]
+	title: "Uncommon Reward"
+}

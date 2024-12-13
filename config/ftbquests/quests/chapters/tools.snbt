@@ -1,0 +1,18 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "tools"
+	group: "0E07056EFBE12555"
+	icon: {
+		Count: 1b
+		id: "alloyed:steel_pickaxe"
+		tag: {
+			Damage: 0
+		}
+	}
+	id: "0C1B3AC83D83E2D1"
+	order_index: 5
+	quest_links: [ ]
+	quests: [ ]
+	title: "Tools"
+}

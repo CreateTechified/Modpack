@@ -1,0 +1,663 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "power_gen"
+	group: "0E07056EFBE12555"
+	icon: "createaddition:alternator"
+	id: "0EE5EABC7C1EF0C3"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["118517EDA69074BA"]
+			description: [
+				"This chapter will guide you through the many ways of power (forge energy) generation that is available in this modpack!"
+				"Some are AWESOME!"
+				"Some are TERRIBBLE!"
+				"But its just your choice"
+			]
+			icon: "powah:energizing_rod_nitro"
+			id: "65313AE7E14FC390"
+			shape: "rsquare"
+			size: 2.0d
+			tasks: [{
+				id: "35CDD743EC76BA13"
+				title: "Continue"
+				type: "checkmark"
+			}]
+			title: "Power"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["65313AE7E14FC390"]
+			description: [
+				"Create on its own doesn't have anything that generates forge energy,"
+				"But there are addons that helps us convert rotational force into forge energy"
+			]
+			icon: "create:cogwheel"
+			id: "48544A465A61CEEB"
+			size: 1.25d
+			tasks: [{
+				id: "7C726ECCA3CEEA8E"
+				title: "Continue"
+				type: "checkmark"
+			}]
+			title: "Create"
+			x: 0.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["65313AE7E14FC390"]
+			description: [
+				"Thermal is a mod that's full of machines using forge energy,"
+				"With the help of different dynamos, we can generate lots of power"
+			]
+			icon: "thermal:machine_frame"
+			id: "578D61C50224C2F8"
+			size: 1.25d
+			tasks: [{
+				id: "37C037DE4B2698E0"
+				title: "Continue"
+				type: "checkmark"
+			}]
+			title: "Thermal Expansion"
+			x: -3.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["65313AE7E14FC390"]
+			description: [
+				"Powah is focused around generating power,"
+				"It has some of the best ways for generating power"
+			]
+			icon: "powah:energizing_orb"
+			id: "129F7F97D4982F0E"
+			size: 1.25d
+			tasks: [{
+				id: "367BFF28C3EC99F0"
+				title: "Continue"
+				type: "checkmark"
+			}]
+			title: "Powah"
+			x: 3.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["48544A465A61CEEB"]
+			description: [
+				"This addon mainly focuses on growing your factory with oil and steel!"
+				"But this mod also has a way to generate fe"
+			]
+			icon: "createindustry:steel_flywheel"
+			id: "1E137F864D949AAF"
+			tasks: [
+				{
+					id: "14B7CDDB299418CA"
+					item: "createindustry:rotor"
+					type: "item"
+				}
+				{
+					id: "2AC5A41CD08A619C"
+					item: "createindustry:stator"
+					type: "item"
+				}
+			]
+			title: "Create: The Factory Must Grow"
+			x: 0.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["48544A465A61CEEB"]
+			description: ["This addon focuses in converting rotational force into fe and visa versa"]
+			icon: "createaddition:alternator"
+			id: "6F89B37B44A8D89F"
+			tasks: [
+				{
+					id: "5693338BECBD9C19"
+					item: "createaddition:alternator"
+					type: "item"
+				}
+				{
+					id: "5B06EEF49E9980E9"
+					item: "createaddition:electric_motor"
+					type: "item"
+				}
+			]
+			title: "Create: Crafts and Additions"
+			x: -2.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["48544A465A61CEEB"]
+			description: [
+				"This focuses on converting rotaional force into fe and visa versa"
+				"Its a little better than create: crafts and additions"
+			]
+			icon: "create_new_age:generator_coil"
+			id: "5FF4A8086EBB033C"
+			tasks: [
+				{
+					id: "54B77F9D0B98ED44"
+					item: "create_new_age:generator_coil"
+					type: "item"
+				}
+				{
+					id: "1EB34050F058ED01"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "create_new_age:magnet"
+						}
+					}
+					title: "Any #create_new_age:magnet"
+					type: "item"
+				}
+				{
+					id: "2F1D0D580EBE2CA7"
+					item: "create_new_age:basic_motor"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "346F57309A4F8430"
+					item: "create_new_age:advanced_motor"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "335AEE937BCB3C43"
+					item: "create_new_age:reinforced_motor"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "17A10938D16E8C55"
+					item: "create_new_age:basic_motor_extension"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "34C0E0082C4B26C8"
+					item: "create_new_age:advanced_motor_extension"
+					optional_task: true
+					type: "item"
+				}
+			]
+			title: "Create: New Age"
+			x: 2.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["578D61C50224C2F8"]
+			description: ["Burns fuel to generate fe"]
+			id: "7497DC0D91CCE623"
+			tasks: [{
+				id: "4E146F30164E6533"
+				item: "thermal:dynamo_stirling"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["578D61C50224C2F8"]
+			description: ["Burns oil to generate fe"]
+			id: "6674172691039D95"
+			tasks: [{
+				id: "57D63279C48D35E2"
+				item: "thermal:dynamo_compression"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["578D61C50224C2F8"]
+			description: ["Burns lava or blazing blood to generate fe"]
+			id: "02690FA734068F5C"
+			tasks: [{
+				id: "29B3B31EBC5AAA01"
+				item: "thermal:dynamo_magmatic"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["578D61C50224C2F8"]
+			description: ["Burns coins to generate fe"]
+			id: "717870FBF31D6E82"
+			tasks: [{
+				id: "3B99577DEEDAAFBA"
+				item: "thermal:dynamo_numismatic"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["578D61C50224C2F8"]
+			description: ["Burns gems to generate fe"]
+			id: "4612191DEE35C1F7"
+			tasks: [{
+				id: "5DA194B4A2D64022"
+				item: "thermal:dynamo_lapidary"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["578D61C50224C2F8"]
+			description: ["Burns enchanted items to generate fe"]
+			id: "0A5F302ACA1C7A30"
+			tasks: [{
+				id: "7C4AF6C60F5AB1B0"
+				item: "thermal:dynamo_disenchantment"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["578D61C50224C2F8"]
+			description: ["Burns food to generate fe"]
+			id: "79A46B64EB987E41"
+			tasks: [{
+				id: "26DE49AF4B80C712"
+				item: "thermal:dynamo_gourmand"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["129F7F97D4982F0E"]
+			id: "2BA41CDF56EFD65D"
+			tasks: [{
+				id: "14EAE0BEB75AD526"
+				item: "powah:furnator_starter"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["129F7F97D4982F0E"]
+			id: "46ACB16CC08496B5"
+			tasks: [{
+				id: "0F35CC45F9A36CEB"
+				item: "powah:magmator_starter"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["129F7F97D4982F0E"]
+			id: "1BF074C3F640F4B6"
+			tasks: [{
+				id: "7E3D1CA437C21139"
+				item: "powah:thermo_generator_starter"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["129F7F97D4982F0E"]
+			id: "50DC22BC6FE9A1CD"
+			tasks: [{
+				id: "5DC1226261AA1290"
+				item: "powah:solar_panel_starter"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["129F7F97D4982F0E"]
+			id: "5BF96DA38A4295FE"
+			tasks: [{
+				id: "73D8BD3FAFBD0721"
+				item: "powah:reactor_starter"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["129F7F97D4982F0E"]
+			id: "724FAC4F05DF724F"
+			tasks: [{
+				id: "19F1316969EC2569"
+				item: "powah:furnator_basic"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["129F7F97D4982F0E"]
+			id: "5280CCE2E6A6965B"
+			tasks: [{
+				id: "2064CFA51A0B8FF0"
+				item: "powah:magmator_basic"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["129F7F97D4982F0E"]
+			id: "73604F1E925E28FC"
+			tasks: [{
+				id: "66D79229E4A76BEA"
+				item: "powah:thermo_generator_basic"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["129F7F97D4982F0E"]
+			id: "30802F551F071247"
+			tasks: [{
+				id: "6179EEC26763DA2D"
+				item: "powah:solar_panel_basic"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["129F7F97D4982F0E"]
+			id: "7DFCEF620664188A"
+			tasks: [{
+				id: "0CBE7D0568D2F938"
+				item: "powah:reactor_basic"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["129F7F97D4982F0E"]
+			id: "417004CD0C32BB80"
+			tasks: [{
+				id: "4D80CE9FCC8186F3"
+				item: "powah:furnator_hardened"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["129F7F97D4982F0E"]
+			id: "70C5518C4658D4BF"
+			tasks: [{
+				id: "531C834E41E6C764"
+				item: "powah:magmator_hardened"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["129F7F97D4982F0E"]
+			id: "49238AFC54248B8B"
+			tasks: [{
+				id: "4FCCB659FD3A320F"
+				item: "powah:thermo_generator_hardened"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["129F7F97D4982F0E"]
+			id: "1ED8E9529328A953"
+			tasks: [{
+				id: "4DAEF3D2D2DDE51C"
+				item: "powah:solar_panel_hardened"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["129F7F97D4982F0E"]
+			id: "2DC6C0CFFD17ACC8"
+			tasks: [{
+				id: "456A1493E7F921E4"
+				item: "powah:reactor_hardened"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["129F7F97D4982F0E"]
+			id: "418401CC549FDB8E"
+			tasks: [{
+				id: "5E573E57AF4F0FD6"
+				item: "powah:furnator_blazing"
+				type: "item"
+			}]
+			x: 9.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["129F7F97D4982F0E"]
+			id: "0698315D3A5A922F"
+			tasks: [{
+				id: "691C998A5A896F1F"
+				item: "powah:magmator_blazing"
+				type: "item"
+			}]
+			x: 9.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["129F7F97D4982F0E"]
+			id: "7B73201350C18EC3"
+			tasks: [{
+				id: "0058B98F693E6325"
+				item: "powah:thermo_generator_blazing"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["129F7F97D4982F0E"]
+			id: "08D457100EB33019"
+			tasks: [{
+				id: "0456863EE6CA257A"
+				item: "powah:solar_panel_blazing"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["129F7F97D4982F0E"]
+			id: "6F44D4FF7E377DB7"
+			tasks: [{
+				id: "55117582AA370F29"
+				item: "powah:reactor_blazing"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["129F7F97D4982F0E"]
+			id: "23CC1854967A4920"
+			tasks: [{
+				id: "111C303260D222D6"
+				item: "powah:furnator_niotic"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["129F7F97D4982F0E"]
+			id: "1AB31D36D8270C1E"
+			tasks: [{
+				id: "1BD0E977922AC90A"
+				item: "powah:magmator_niotic"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["129F7F97D4982F0E"]
+			id: "610300719D54CD67"
+			tasks: [{
+				id: "7A4E7F23F4BF1DC7"
+				item: "powah:thermo_generator_niotic"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["129F7F97D4982F0E"]
+			id: "1B5105E4B826B047"
+			tasks: [{
+				id: "6B1AC5A19794505B"
+				item: "powah:solar_panel_niotic"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["129F7F97D4982F0E"]
+			id: "7DE83BD49A803368"
+			tasks: [{
+				id: "555E0C6F80AB05BB"
+				item: "powah:reactor_niotic"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["129F7F97D4982F0E"]
+			id: "54207F7C6B86B50A"
+			tasks: [{
+				id: "202BFB32DDE8AD0E"
+				item: "powah:furnator_spirited"
+				type: "item"
+			}]
+			x: 11.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["129F7F97D4982F0E"]
+			id: "4D936BDDF28F9455"
+			tasks: [{
+				id: "217A50BCE74FC13A"
+				item: "powah:magmator_spirited"
+				type: "item"
+			}]
+			x: 11.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["129F7F97D4982F0E"]
+			id: "356469EBA5793577"
+			tasks: [{
+				id: "29E85E3C2086E858"
+				item: "powah:thermo_generator_spirited"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["129F7F97D4982F0E"]
+			id: "65D6A719399D426E"
+			tasks: [{
+				id: "57CC11B134F99B65"
+				item: "powah:solar_panel_spirited"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["129F7F97D4982F0E"]
+			id: "1BB209431E0A9657"
+			tasks: [{
+				id: "4AD7DFD1FC88F7C3"
+				item: "powah:reactor_spirited"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["129F7F97D4982F0E"]
+			id: "01B2E91AE52BCA0B"
+			tasks: [{
+				id: "2B7D184BE89F2532"
+				item: "powah:furnator_nitro"
+				type: "item"
+			}]
+			x: 12.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["129F7F97D4982F0E"]
+			id: "7D471AE2A4718C88"
+			tasks: [{
+				id: "0163633BDEB5328D"
+				item: "powah:magmator_nitro"
+				type: "item"
+			}]
+			x: 12.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["129F7F97D4982F0E"]
+			id: "5FAC0A4D9700F1CA"
+			tasks: [{
+				id: "11BFD332F36E47C6"
+				item: "powah:thermo_generator_nitro"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["129F7F97D4982F0E"]
+			id: "539E71573883199A"
+			tasks: [{
+				id: "66C969C74B86C948"
+				item: "powah:solar_panel_nitro"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["129F7F97D4982F0E"]
+			id: "505EBDCFDF8820A4"
+			tasks: [{
+				id: "6E6F12B0ED669B3E"
+				item: "powah:reactor_nitro"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 2.0d
+		}
+	]
+	title: "Power Gen"
+}

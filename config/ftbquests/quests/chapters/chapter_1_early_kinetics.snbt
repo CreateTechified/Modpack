@@ -1,0 +1,27 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "chapter_1_early_kinetics"
+	group: "4C9878C9CE67B9E8"
+	icon: "techifiedcore:kinetic_mechanism"
+	id: "1939685DB5E47C98"
+	order_index: 1
+	quest_links: [ ]
+	quests: [{
+		dependencies: ["6809B14705FD5484"]
+		icon: "create:andesite_alloy"
+		id: "6A0F2AE3A65EFE80"
+		shape: "rsquare"
+		size: 2.0d
+		subtitle: "Path towards kinetic mechanism"
+		tasks: [{
+			id: "04D9D5739FEBB842"
+			title: "Start!"
+			type: "checkmark"
+		}]
+		title: "Chapter 1"
+		x: 0.0d
+		y: 0.0d
+	}]
+	title: "Chapter 1: Early Kinetics"
+}

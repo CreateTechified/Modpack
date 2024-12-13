@@ -1,0 +1,211 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "progression"
+	group: ""
+	icon: "ad_astra:steel_cable"
+	id: "42089825D5684B4D"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["75708DA1EB1FE0F9"]
+			id: "1354BA2D246A09F4"
+			rewards: [{
+				id: "30DB7F6BBFF1A882"
+				item: "minecraft:oak_sapling"
+				type: "item"
+			}]
+			size: 3.0d
+			subtitle: "The first thing that you should always get..."
+			tasks: [{
+				id: "06CD5887701CFE24"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "minecraft:logs"
+					}
+				}
+				title: "Get some wood"
+				type: "item"
+			}]
+			title: "Wood!"
+			x: -10.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1354BA2D246A09F4"]
+			description: ["By pressing the checkmark, you'll unlock chapter 0.5!"]
+			icon: "minecraft:crafting_table"
+			id: "7DA76D91B060DF4B"
+			size: 1.5d
+			tasks: [{
+				id: "08E58ECF08F23F4F"
+				title: "Unlock"
+				type: "checkmark"
+			}]
+			title: "Unlock Chapter 0.5!"
+			x: -6.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"7DA76D91B060DF4B"
+				"20B4BA72F5CD2CE5"
+			]
+			id: "0FD4DBE59D1EE510"
+			tasks: [{
+				count: 64L
+				id: "23553A4E260B6A06"
+				item: "create:andesite_alloy"
+				type: "item"
+			}]
+			title: "Preparing for the next chapter"
+			x: -4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0FD4DBE59D1EE510"]
+			description: ["By pressing the checkmark, you'll unlock chapter 1!"]
+			icon: "techifiedcore:kinetic_mechanism"
+			id: "6809B14705FD5484"
+			size: 1.5d
+			tasks: [{
+				id: "3064E45662A870ED"
+				title: "Unlock"
+				type: "checkmark"
+			}]
+			title: "Unlock Chapter 1!"
+			x: -2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6809B14705FD5484"]
+			id: "72286E3A4FF45C1A"
+			tasks: [{
+				count: 32L
+				id: "661AF7204BF41F70"
+				item: "techifiedcore:kinetic_mechanism"
+				type: "item"
+			}]
+			title: "Preparing for the next chapter"
+			x: -0.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["72286E3A4FF45C1A"]
+			description: ["By pressing the checkmark, you'll unlock chapter 2!"]
+			icon: "create:precision_mechanism"
+			id: "08074A541658E4A5"
+			size: 1.5d
+			tasks: [{
+				id: "46556216B453C394"
+				title: "Unlock"
+				type: "checkmark"
+			}]
+			title: "Unlock Chapter 2!"
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["08074A541658E4A5"]
+			id: "4F73AA23F6C06BA0"
+			tasks: [{
+				count: 32L
+				id: "6F6065C6CC5B5CFB"
+				item: "create:precision_mechanism"
+				type: "item"
+			}]
+			title: "Preparing for the next chapter"
+			x: 3.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4F73AA23F6C06BA0"]
+			description: ["By pressing the checkmark, you'll unlock chapter 3!"]
+			icon: "techifiedcore:t1_radiant_mechanism"
+			id: "0F769D52E443A8D6"
+			size: 1.5d
+			tasks: [{
+				id: "1B3FDDA412497CF3"
+				title: "Unlock"
+				type: "checkmark"
+			}]
+			title: "Unlock Chapter 3!"
+			x: 5.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0F769D52E443A8D6"]
+			id: "72592136E4258088"
+			tasks: [{
+				count: 32L
+				id: "64062249AFEFE2E2"
+				item: "techifiedcore:t1_radiant_mechanism"
+				type: "item"
+			}]
+			title: "Preparing for the next chapter"
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["72592136E4258088"]
+			description: ["By pressing the checkmark, you'll unlock chapter 4!"]
+			icon: "techifiedcore:industrial_mechanism"
+			id: "1D83670CB6635B46"
+			size: 1.5d
+			tasks: [{
+				id: "43D07340AD9470BC"
+				title: "Unlock"
+				type: "checkmark"
+			}]
+			title: "Unlock Chapter 4!"
+			x: 9.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1D83670CB6635B46"]
+			id: "0C034CF23FEB8374"
+			tasks: [{
+				count: 32L
+				id: "5E49E237B1C815D6"
+				item: "techifiedcore:industrial_mechanism"
+				type: "item"
+			}]
+			title: "Preparing for the next chapter"
+			x: 11.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0C034CF23FEB8374"]
+			description: ["By pressing the checkmark, you'll unlock chapter 5!"]
+			icon: "techifiedcore:quantum_mechanism"
+			id: "06B221CCEEE0655F"
+			size: 1.5d
+			subtitle: "At last"
+			tasks: [{
+				id: "6831C40770243F6C"
+				title: "Unlock"
+				type: "checkmark"
+			}]
+			title: "Unlock Chapter 5!"
+			x: 13.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["06B221CCEEE0655F"]
+			id: "367391E31937C3FB"
+			size: 3.0d
+			tasks: [{
+				id: "6169FAEB2363C265"
+				title: "Unlock"
+				type: "checkmark"
+			}]
+			title: "Unlock The Final Chapter!!!"
+			x: 17.0d
+			y: 0.0d
+		}
+	]
+	title: "Progression"
+}

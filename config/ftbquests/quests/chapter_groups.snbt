@@ -1,0 +1,7 @@
+{
+	chapter_groups: [
+		{ id: "7561C9C702F04D5D", title: "Market" }
+		{ id: "4C9878C9CE67B9E8", title: "Main Quests" }
+		{ id: "0E07056EFBE12555", title: "Miscellaneous" }
+	]
+}
