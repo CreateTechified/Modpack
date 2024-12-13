@@ -1,7 +1,13 @@
 {
-    "name": "Create: Techified",
+    "name": "CreateTechified",
     "version": "0.0.1",
     "overrides": [
-        "config"
+        "config",
+        "datapacks",
+        "kubejs"
+    ],
+    "client_overrides": [
+        "packmenu",
+        "icon.png"
     ]
 }
