@@ -1922,6 +1922,47 @@
             ]
         },
         {
+            "pakku_id": "yoW2O22F0egUHUWY",
+            "pakku_links": [
+                "lwiKjnY0SwO3FVvI"
+            ],
+            "type": "MOD",
+            "slug": {
+                "curseforge": "chisel-chipped-integration"
+            },
+            "name": {
+                "curseforge": "Chisel Chipped Integration"
+            },
+            "id": {
+                "curseforge": "971089"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "chisel_chipped_integration_v1.0.3_1.19.2.jar",
+                    "mc_versions": [
+                        "1.19.2"
+                    ],
+                    "loaders": [
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/5661/651/chisel_chipped_integration_v1.0.3_1.19.2.jar",
+                    "id": "5661651",
+                    "parent_id": "971089",
+                    "hashes": {
+                        "sha1": "b0f90a643b6969c0451fa10d2743c68a67b50155",
+                        "md5": "a6962fd0ccb1a863c2dcc95827ebfca5"
+                    },
+                    "required_dependencies": [
+                        "456956"
+                    ],
+                    "size": 1457974,
+                    "date_published": "2024-08-25T10:13:34.047Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "Oy5ytJ29aJjfYicL",
             "type": "MOD",
             "slug": {
@@ -11793,6 +11834,43 @@
                     ],
                     "size": 928606,
                     "date_published": "2024-12-13T08:13:32.750Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "kphyOJC6Spra2URi",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "xtones-reworked"
+            },
+            "name": {
+                "curseforge": "Xtones Reworked"
+            },
+            "id": {
+                "curseforge": "694231"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "xtonesreworked-1.0.3-1.19.2-43.2.0.jar",
+                    "mc_versions": [
+                        "1.19.2"
+                    ],
+                    "loaders": [
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/4729/897/xtonesreworked-1.0.3-1.19.2-43.2.0.jar",
+                    "id": "4729897",
+                    "parent_id": "694231",
+                    "hashes": {
+                        "sha1": "781367eb67ae40addd8ab9a4ffc4faaf70f3d41c",
+                        "md5": "431849d267622c756bc68051954af40e"
+                    },
+                    "required_dependencies": [
+                    ],
+                    "size": 1342827,
+                    "date_published": "2023-08-30T20:05:48.193Z"
                 }
             ]
         },
