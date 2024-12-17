@@ -12,6 +12,11 @@
   <a href="https://lambdaurora.dev/optifine_alternatives" rel="noopener nofollow ugc">
   <img src="https://wsrv.nl/?url=https%3A%2F%2Fimages.teamresourceful.com%2Fu%2F8vCLgK.svg&amp;n=-1" alt="Incompatible with Optifine"></a>
   </br>
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/6665e4a8-0b27-4a08-a313-d7f27bf67953" />
+</p>
+
 Description coming soon <3
 
 Check GitHub Releases!
