@@ -21,7 +21,7 @@
 <br>
 <br>
 <br>
-![](https://github.com/user-attachments/assets/a641d619-3edb-4908-8f6c-21dfa2484eac | height=40)
+![](https://github.com/user-attachments/assets/a641d619-3edb-4908-8f6c-21dfa2484eac|height=40)
 <br>
 1. Create Mod Integration:
 The modpack heavily incorporates the Create mod, allowing players to engineer intricate automation systems, design complex machinery, and manage production chains.
