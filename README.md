@@ -17,6 +17,4 @@
   <img src="https://github.com/user-attachments/assets/6665e4a8-0b27-4a08-a313-d7f27bf67953" />
 </p>
 
-Description coming soon <3
-
-Check GitHub Releases!
+![core_features](https://github.com/user-attachments/assets/a641d619-3edb-4908-8f6c-21dfa2484eac)
