@@ -21,7 +21,7 @@
 <br>
 <br>
 <br>
-<img src="https://github.com/user-attachments/assets/a641d619-3edb-4908-8f6c-21dfa2484eac" alt="Core features" style="width:156; height:auto;">
+<img src="https://github.com/user-attachments/assets/a641d619-3edb-4908-8f6c-21dfa2484eac" alt="Core features" style="width:auto; height:'40';">
 <br>
 1. Create Mod Integration:
 The modpack heavily incorporates the Create mod, allowing players to engineer intricate automation systems, design complex machinery, and manage production chains.
@@ -39,7 +39,7 @@ A structured questline helps players learn mod interactions, from basic automati
 *not decided yet*
 <br>
 <br>
-<img src="https://github.com/user-attachments/assets/76f534f1-18cc-4e9b-9f79-6fb1e5d3da8f" alt="Info" style="width:156; height:auto;">
+<img src="https://github.com/user-attachments/assets/76f534f1-18cc-4e9b-9f79-6fb1e5d3da8f" alt="Info" style="width:auto; height:'40';">
 <br>
 # World and Gameplay Overview
 *Create: Techified* transports players to a world where engineering ingenuity shapes the very foundation of progress. Designed for those who thrive on crafting intricate systems and exploring technological frontiers, the modpack combines innovation with a sense of discovery.
@@ -67,7 +67,7 @@ The modpack is built with collaboration in mind. Whether you’re competing with
 At the heart of the modpack lies a challenge that embodies the spirit of innovation. Your ultimate goal is to engineer a groundbreaking creation—one that will leave a lasting mark on the world you’ve built. The specifics? That’s for you to discover.
 <br>
 <br>
-<img src="https://github.com/user-attachments/assets/b6338b3c-2a20-49e3-acf5-2ecce9efe762" alt="Intro" style="width:156; height:auto;">
+<img src="https://github.com/user-attachments/assets/b6338b3c-2a20-49e3-acf5-2ecce9efe762" alt="Intro" style="width:auto; height:'40';">
 <br>
 *Welcome to Create: Techified*
 
